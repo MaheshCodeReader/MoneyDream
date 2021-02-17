@@ -1,0 +1,13 @@
+curl 'https://api.tiingo.com/tiingo/daily/AAPL' \
+  -H 'Connection: keep-alive' \
+  -H 'Cache-Control: max-age=0' \
+  -H 'Upgrade-Insecure-Requests: 1' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36' \
+  -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
+  -H 'Sec-Fetch-Site: none' \
+  -H 'Sec-Fetch-Mode: navigate' \
+  -H 'Sec-Fetch-User: ?1' \
+  -H 'Sec-Fetch-Dest: document' \
+  -H 'Accept-Language: en-US,en;q=0.9' \
+  -H 'Cookie: csrftoken=wlWxrSG051yIIIcthOW9bmoLT7HIQfVIbUtvridMr5b6muaCqz2Dl4rYVc3NJOBZ; sessionid=bgdwdcsnm9oogl8kr2ypn21kl4efi3yw' \
+  --compressed
